@@ -1,4 +1,9 @@
 <template>
+     <footer>
+        <p id="createdBy">
+          Created By: <a href="facebook.com/cedzzz.a">Cedric Adap</a>
+        </p>
+      </footer>
 <v-container fluid>
      &nbsp&nbsp&nbsp<span class="font-weight-bold" style="font-size:30px;text-decoration: underline;"> STRING MANIPULATOR&nbsp&nbsp</span>
  <v-card

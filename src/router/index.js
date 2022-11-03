@@ -7,6 +7,8 @@ import AboutTip from '../views/AboutTip.vue'
 import PersonalLife from '../views/PersonalLife.vue'
 import ProgrammingSkills from '../views/ProgrammingSkills.vue'
 import AxiosAPI from '../views/AxiosAPI.vue'
+import QuizApp from '../views/QuizApp.vue'
+import AnimeTracker from '../views/AnimeTracker.vue'
 
 
 
@@ -53,6 +55,18 @@ const router = createRouter({
       name: 'axiosApi',
       component: AxiosAPI
       },
+    {
+      path: '/quizApp',
+      name: 'quizApp',
+      component: QuizApp
+      },
+    {
+      path: '/animeTracker',
+      name: 'animeTracker',
+      component: AnimeTracker
+      },
+            
+
 
   ]
 })

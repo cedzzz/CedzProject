@@ -67,7 +67,9 @@
            { title: 'About T.I.P', icon: 'mdi-school', path: '/aboutTip' },
            { title: 'Calculator', icon: 'mdi-calculator', path: '/basicMath' },
            { title: 'String Manipulator', icon: 'mdi-code-string', path: '/stringApp'},
-           { title: 'Axios API', icon: 'mdi-gamepad', path: '/axiosAPI'},
+           { title: 'Steam Charts', icon: 'mdi-chart-areaspline', path: '/axiosAPI'},
+           { title: 'Quiz Game', icon: 'mdi-gamepad', path: '/quizApp'},
+           { title: 'Anime Tracker', icon: 'mdi-library', path: '/animeTracker'},
         ])
 
  function toggleDrawer(){

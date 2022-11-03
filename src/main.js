@@ -6,6 +6,8 @@ import { loadFonts } from './plugins/webfontloader'
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 import { faSteam } from '@fortawesome/free-brands-svg-icons'
+import { faFacebookF } from '@fortawesome/free-brands-svg-icons'
+library.add(faFacebookF, faSteam);
 loadFonts()
 
 createApp(App)
